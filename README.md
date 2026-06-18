@@ -1,6 +1,22 @@
 # Licorería Don Lucho - E-Commerce
 
+## Descripción
+
 Sistema de comercio electrónico para la **Licorería Don Lucho**, desarrollado en PHP nativo con Bootstrap 5. Permite gestionar productos, categorías, sliders, navbar, logos, pedidos y testimonios desde un panel administrativo, con carrito de compras persistente y pedidos vía WhatsApp.
+
+![Imagen 1](images/tarea/image1.png)
+![Imagen 2](images/tarea/image2.png)
+![Imagen 3](images/tarea/image3.png)
+![Imagen 4](images/tarea/image4.png)
+![Imagen 5](images/tarea/image5.png)
+![Imagen 6](images/tarea/image6.png)
+![Imagen 7](images/tarea/image7.png)
+![Imagen 8](images/tarea/image8.png)
+![Imagen 9](images/tarea/image9.png)
+![Imagen 10](images/tarea/image10.png)
+![Imagen 11](images/tarea/image11.png)
+![Imagen 12](images/tarea/image12.png)
+![Imagen 13](images/tarea/image13.png)
 
 ---
 

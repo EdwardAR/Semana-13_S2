@@ -1,0 +1,260 @@
+Error al leer ítems del slider: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'imagen' in 'field list'Error al guardar ítem del slider: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokensSQL Query for Slider: INSERT INTO slider_items (titulo, subtitulo, imagen, texto_boton_1, url_boton_1, texto_boton_2, url_boton_2, orden, estado, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW())Parameters for Slider (Count: 9): Array
+(
+    [0] => Lo mejor para tu hogar
+    [1] => Mueble de sala tapizado de diseño moderno, fabricado en estructura de madera reforzada, acolchado con espuma de alta densidad para mayor confort. Acabado con tela resistente al desgaste en tonos neutros, ideal para integrarse a diferentes estilos de decoración. Incluye cojines decorativos y patas de madera tratada para mayor durabilidad y estabilidad.
+
+    [2] => images/sliders/bee927755203c36eba4ef49ac92f52b8.png
+    [3] => Comprar
+    [4] => shop.php
+    [5] => Conocenos
+    [6] => contact.php
+    [7] => 2
+    [8] => activo
+)
+Error al guardar ítem del slider: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokensSQL Query for Slider: INSERT INTO slider_items (titulo, subtitulo, imagen, texto_boton_1, url_boton_1, texto_boton_2, url_boton_2, orden, estado, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW())Parameters for Slider (Count: 9): Array
+(
+    [0] => Lo mejor para tu Hogar
+    [1] => Mueble de sala tapizado de diseño moderno, fabricado en estructura de madera reforzada, acolchado con espuma de alta densidad para mayor confort. Acabado con tela resistente al desgaste en tonos neutros, ideal para integrarse a diferentes estilos de decoración. Incluye cojines decorativos y patas de madera tratada para mayor durabilidad y estabilidad.
+
+    [2] => images/sliders/b7b76733a1c01caf224cba0bdee8fa21.png
+    [3] => Comprar
+    [4] => shop.php
+    [5] => Conocenos
+    [6] => contact
+    [7] => 2
+    [8] => activo
+)
+Error al guardar ítem del slider: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokensSQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Bienvenido a Furni
+    [1] => Descubre la comodidad y el estilo para tu hogar con nuestra exclusiva colección de muebles. Tu espacio, tu esencia.
+    [2] => Explorar Ahora
+    [3] => shop.php
+    [4] => Conócenos
+    [5] => about.php
+    [6] => 10
+    [7] => activo
+    [8] => images/sliders/58e419aeae3d87da8070f7c620c4c687.png
+    [9] => 1
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Oferta Especial de Primavera
+    [1] => Renueva tu sala con descuentos increíbles en sofás y sillones. ¡No te lo pierdas!
+    [2] => Ver Ofertas
+    [3] => shop.php
+    [4] => WhatsApp
+    [5] => contact.php
+    [6] => 2
+    [7] => activo
+    [8] => images/sliders/33b7956c232db728a04c5511b225a881.png
+    [9] => 2
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Bienvenido a Furni
+    [1] => Descubre la comodidad y el estilo para tu hogar con nuestra exclusiva colección de muebles. Tu espacio, tu esencia.
+    [2] => Explorar Ahora
+    [3] => shop.php
+    [4] => Conócenos
+    [5] => about.php
+    [6] => 1
+    [7] => activo
+    [8] => images/sliders/11c547da336102500973545140c7662d.png
+    [9] => 1
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Oferta Especial de Primavera
+    [1] => Renueva tu sala con descuentos increíbles en sofás y sillones. ¡No te lo pierdas!
+    [2] => Ver Ofertas
+    [3] => shop.php
+    [4] => WhatsApp
+    [5] => contact.php
+    [6] => 2
+    [7] => activo
+    [8] => images/sliders/cecebb5b16751ee84c3912603a4b5dcd.png
+    [9] => 2
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Diseño Minimalista para tu Hogar
+    [1] => Líneas limpias y funcionalidad en cada pieza. Crea un ambiente sereno y moderno.
+    [2] => Descubrir Estilo
+    [3] => shop.php?style=minimalista
+    [4] => Blog de Diseño
+    [5] => blog.php
+    [6] => 3
+    [7] => activo
+    [8] => images/sliders/2609b908f197d6f1281f044eeaa67fd3.png
+    [9] => 3
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Diseño Minimalista para tu Hogar
+    [1] => Líneas limpias y funcionalidad en cada pieza. Crea un ambiente sereno y moderno.
+    [2] => Descubrir Estilo
+    [3] => shop.php?style=minimalista
+    [4] => Blog de Diseño
+    [5] => blog.php
+    [6] => 3
+    [7] => activo
+    [8] => images/sliders/ed4dcfc41b0e4276960158198906e545.jpg
+    [9] => 3
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Nueva Colección de Dormitorios
+    [1] => Transforma tu descanso con nuestras camas y mesas de noche de diseño. Confort y elegancia asegurados.
+    [2] => Comprar Ahora
+    [3] => shop.php?category=dormitorios
+    [4] => 
+    [5] => 
+    [6] => 4
+    [7] => activo
+    [8] => images/sliders/71f9a4dd13b22c69da9bce55a434c175.jpg
+    [9] => 4
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Diseño Minimalista para tu Hogar
+    [1] => Líneas limpias y funcionalidad en cada pieza. Crea un ambiente sereno y moderno.
+    [2] => Descubrir Estilo
+    [3] => shop.php?style=minimalista
+    [4] => Blog de Diseño
+    [5] => blog.php
+    [6] => 3
+    [7] => activo
+    [8] => images/sliders/6f327e71e12f267a8f12f7756e439981.jpg
+    [9] => 3
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Diseño Minimalista para tu Hogar
+    [1] => Líneas limpias y funcionalidad en cada pieza. Crea un ambiente sereno y moderno.
+    [2] => Descubrir Estilo
+    [3] => shop.php?style=minimalista
+    [4] => Blog de Diseño
+    [5] => blog.php
+    [6] => 3
+    [7] => activo
+    [8] => images/sliders/9f1947218262986cb672bf9457836d34.jpg
+    [9] => 3
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Inspiración para tu Oficina en Casa
+    [1] => Muebles ergonómicos y estéticos para potenciar tu productividad y bienestar.
+    [2] => Ver Productos
+    [3] => shop.php?category=oficina
+    [4] => Contáctanos
+    [5] => contact.php
+    [6] => 5
+    [7] => inactivo
+    [8] => images/sliders/3a27207a07b1ca7f85cc938abf26a3a5.jpg
+    [9] => 5
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Accesorios que Marcan la Diferencia
+    [1] => Pequeños detalles que elevan el estilo de cualquier rincón de tu casa.
+    [2] => Comprar Accesorios
+    [3] => shop.php?category=accesorios
+    [4] => 
+    [5] => 
+    [6] => 60
+    [7] => activo
+    [8] => images/sliders/64cfa66fa96814450806b1ad8a6f8b99.png
+    [9] => 6
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Oferta Especial de Primavera
+    [1] => Renueva tu sala con descuentos increíbles en sofás y sillones. ¡No te lo pierdas!
+    [2] => Ver Ofertas
+    [3] => shop.php
+    [4] => WhatsApp
+    [5] => contact.php
+    [6] => 2
+    [7] => activo
+    [8] => images/sliders/4e9f47db2bf3ae5682333474c3622f63.jpg
+    [9] => 2
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Diseño Minimalista para tu Hogar
+    [1] => Líneas limpias y funcionalidad en cada pieza. Crea un ambiente sereno y moderno.
+    [2] => Descubrir Estilo
+    [3] => shop.php?style=minimalista
+    [4] => Blog de Diseño
+    [5] => blog.php
+    [6] => 3
+    [7] => activo
+    [8] => images/sliders/e038469c940370d1eaa0238585098e5a.jpg
+    [9] => 3
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Nueva Colección de Dormitorios
+    [1] => Transforma tu descanso con nuestras camas y mesas de noche de diseño. Confort y elegancia asegurados.
+    [2] => Comprar Ahora
+    [3] => shop.php?category=dormitorios
+    [4] => 
+    [5] => 
+    [6] => 4
+    [7] => activo
+    [8] => images/sliders/b63d1faa44dc0775b0464d8b8f8ad57b.png
+    [9] => 4
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Oferta Especial de Primavera
+    [1] => Renueva tu sala con descuentos increíbles en sofás y sillones. ¡No te lo pierdas!
+    [2] => Ver Ofertas
+    [3] => shop.php
+    [4] => WhatsApp
+    [5] => contact.php
+    [6] => 2
+    [7] => activo
+    [8] => images/sliders/fd72f313a3abced4c4d4d8bcc591c32e.png
+    [9] => 2
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Diseño Minimalista para tu Hogar
+    [1] => Líneas limpias y funcionalidad en cada pieza. Crea un ambiente sereno y moderno.
+    [2] => Descubrir Estilo
+    [3] => shop.php?style=minimalista
+    [4] => Blog de Diseño
+    [5] => blog.php
+    [6] => 3
+    [7] => activo
+    [8] => images/sliders/9f6e1d1a7e0a6a51a0d51b5cce80d288.png
+    [9] => 3
+)
+SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Inspiración para tu Oficina en Casa
+    [1] => Muebles ergonómicos y estéticos para potenciar tu productividad y bienestar.
+    [2] => Ver Productos
+    [3] => shop.php?category=oficina
+    [4] => Contáctanos
+    [5] => contact.php
+    [6] => 5
+    [7] => activo
+    [8] => images/sliders/7c5bc98fe0055276619de090896e9d64.png
+    [9] => 5
+)
+Error al leer productos: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.categoria_id' in 'field list'Error al leer productos: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.categoria_id' in 'field list'Error al leer productos: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.categoria_id' in 'field list'Error al leer productos: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.categoria_id' in 'field list'SQL Query for Slider: UPDATE slider_items SET titulo = ?, subtitulo = ?, texto_boton_1 = ?, url_boton_1 = ?, texto_boton_2 = ?, url_boton_2 = ?, orden = ?, estado = ?, updated_at = NOW(), imagen = ? WHERE id = ?Parameters for Slider (Count: 10): Array
+(
+    [0] => Bienvenido a Furni
+    [1] => Descubre la comodidad y el estilo para tu hogar con nuestra exclusiva colección de muebles. Tu espacio, tu esencia.
+    [2] => Explorar Ahora
+    [3] => shop.php
+    [4] => Conócenos
+    [5] => about.php
+    [6] => 1
+    [7] => activo
+    [8] => images/sliders/feaf967df6d35e8b645f829e86a8b631.jpg
+    [9] => 1
+)

@@ -1,0 +1,51 @@
+<?php
+// admin/api/slider_cambiar_estado.php
+
+header('Content-Type: application/json');
+
+require_once 'db_config.php';
+
+$response = [
+    'success' => false,
+    'message' => 'Error desconocido.'
+];
+
+$input = file_get_contents('php://input');
+$data = json_decode($input, true);
+
+if (!isset($data['id']) || !isset($data['estado'])) {
+    $response['message'] = 'Faltan datos obligatorios para cambiar el estado del ítem del slider.';
+    echo json_encode($response);
+    exit();
+}
+
+$itemId = (int)$data['id'];
+$nuevoEstado = $data['estado']; // 'activo', 'inactivo'
+
+// Los estados permitidos ahora son solo 'activo' e 'inactivo'
+$allowedStates = ['activo', 'inactivo'];
+if (!in_array($nuevoEstado, $allowedStates)) {
+    $response['message'] = 'Estado no válido proporcionado. Solo se permite "activo" o "inactivo".';
+    echo json_encode($response);
+    exit();
+}
+
+try {
+    $sql = "UPDATE slider_items SET estado = ?, updated_at = NOW() WHERE id = ?";
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute([$nuevoEstado, $itemId]);
+
+    if ($stmt->rowCount() > 0) {
+        $response['success'] = true;
+        $response['message'] = 'Estado del ítem del slider actualizado a "' . $nuevoEstado . '" exitosamente.';
+    } else {
+        $response['message'] = 'No se encontró el ítem del slider con el ID proporcionado o el estado ya es el mismo.';
+    }
+
+} catch (\PDOException $e) {
+    $response['message'] = 'Error al cambiar el estado del ítem del slider: ' . $e->getMessage();
+    error_log("Error al cambiar estado de ítem del slider: " . $e->getMessage(), 3, 'php_error.log');
+}
+
+echo json_encode($response);
+?>
